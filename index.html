@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="todo-container">
+        <form id="add-form">
+            <input type="text" placeholder="New ToDo...." id="todo-input">
+            <button type="submit" id="todo-btn">ADD</button>
+        </form>
+        <div class="boxs-container">
+            <div class="box" id="to-do">
+                <h3 class="heading">TODO</h3>
+                <p class="task" draggable="true">playing playstation</p>
+                <p class="task" draggable="true">playing pubg</p>
+                <p class="task" draggable="true">playing football</p>
+            </div>
+            <div class="box" id="doing">
+                <h3 class="heading">Doing</h3>
+                <p class="task" draggable="true">playing playstation</p>
+                <p class="task" draggable="true">playing pubg</p>
+            </div>
+            <div class="box" id="done">
+                <h3 class="heading">Done</h3>
+                <p class="task" draggable="true">playing playstation</p>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
